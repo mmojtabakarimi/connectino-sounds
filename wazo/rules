@@ -7,12 +7,11 @@ case "$1" in
         ;;
 
     package)
-  mkdir -p ${pkgdir}/etc/systemd/system
         ;;
 
     install)
-      wget 
-  mkdir /tmp/wazo-sounds
+      mkdir -p /usr/share/asterisk/sounds/fa_FA
+      tar -xvf fa_FA.tar.gz -C /usr/share/asterisk/sounds/fa_FA/
         ;;
 
     uninstall)
