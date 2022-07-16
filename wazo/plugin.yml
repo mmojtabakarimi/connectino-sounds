@@ -1,0 +1,7 @@
+name: sounds-plugin
+namespace: connectino
+version: 1.0.0
+author: Mojtaba Karimi
+display_name: connectino-sound-plugins
+description: This plugin install sounds for connectino-sound-plugins
+homepage: https://github.com/connectino-platform/wazo-sounds-plugin.git

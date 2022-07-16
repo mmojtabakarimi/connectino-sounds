@@ -1,0 +1,23 @@
+#!/bin/sh
+# Copyright 2020 Benoît Stahl
+# SPDX-License-Identifier: GPL-3.0+
+
+case "$1" in
+    build)
+        ;;
+
+    package)
+        ;;
+
+    install)
+      mkdir /tmp/wazo-sounds
+        ;;
+
+    uninstall)
+        ;;
+
+    *)
+        echo "$0 called with unknown argument '$1'" >&2
+        exit 1
+    ;;
+esac
