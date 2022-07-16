@@ -7,10 +7,12 @@ case "$1" in
         ;;
 
     package)
+  mkdir -p ${pkgdir}/etc/systemd/system
         ;;
 
     install)
-      mkdir /tmp/wazo-sounds
+      wget 
+  mkdir /tmp/wazo-sounds
         ;;
 
     uninstall)
