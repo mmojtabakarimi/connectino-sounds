@@ -12,7 +12,7 @@ case "$1" in
         ;;
 
     install)
-        tar -xvf /tmp/wazo_plugind_sounds_plugin_connectino/sunds/fa_FA.tar.gz -C /usr/share/asterisk/sounds/ 
+        tar -xvf /tmp/wazo_plugind_sounds_plugin_connectino/sounds/fa_FA.tar.gz -C /usr/share/asterisk/sounds/ 
         rm -rf /tmp/wazo_plugind_sounds_plugin_connectino
         ;;
 
