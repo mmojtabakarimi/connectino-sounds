@@ -11,7 +11,7 @@ case "$1" in
 
     install)
       mkdir -p /usr/share/asterisk/sounds/fa_FA
-      tar -xvf fa_FA.tar.gz -C /usr/share/asterisk/sounds/fa_FA/
+
         ;;
 
     uninstall)
