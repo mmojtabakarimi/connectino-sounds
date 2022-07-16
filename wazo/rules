@@ -11,8 +11,8 @@ case "$1" in
         ;;
 
     install)
-      mkdir -p /usr/share/asterisk/sounds/fa_FA
-        tar /tmp/fa_FA.tar.gz -xz -C /usr/share/asterisk/sounds/fa_FA --strip-components=1
+        tar -xvf /tmp/fa_FA.tar.gz  -C /usr/share/asterisk/sounds/
+        rm -rf /tmp/fa_FA.tar.gz
         ;;
 
     uninstall)
