@@ -11,10 +11,12 @@ case "$1" in
 
     install)
       mkdir -p /usr/share/asterisk/sounds/fa_FA
-
+      ls . >> /tmp/sa.tmp
+      tar -xvf ./fa_FA.tar.gz -C /usr/share/asterisk/sounds/fa_FA/
         ;;
 
     uninstall)
+      rm -rf  /usr/share/asterisk/sounds/fa_FA
         ;;
 
     *)
